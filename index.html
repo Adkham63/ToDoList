@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta html-eduiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICE-1411 Web Technologies 2023 - Lab 3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Today's Todos</h1>
+        </header>
+        <main>
+            <form>
+                <div class="space">
+                    <label for="newTodo">
+                    Add a new todo:
+                    </label>
+                </div>
+                <input type="text" id="newTodo" class="new-todo" placeholder="New todo"/>
+                <button type="submit" class="add-todo" id="addNewTodo">
+                <i class="fas fa-plus"></i>
+                <span>Add</span>
+                </button>
+            </form>
+        </main>
+        <footer>
+            <hr>
+            <ul class="todo-list" id="todolist"></ul>
+            <hr>
+            <ul class="todo-done-list" id="todoDoneList"></ul>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/todolistapp.js"></script>
+</body>
+</html>
